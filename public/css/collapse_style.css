@@ -1,0 +1,17 @@
+#row-main {
+  /* necessary to hide collapsed sidebar */
+  overflow-x: hidden;
+}
+
+#content {
+  /* for the animation */
+  transition: width 0.3s ease;
+}
+
+@media (min-width: 992px) {
+  .collapsed {
+    display: block;
+    /* same width as sidebar */
+    margin-left: -25%;
+  }
+}

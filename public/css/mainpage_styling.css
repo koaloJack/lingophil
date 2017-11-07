@@ -1,0 +1,78 @@
+
+
+.jumbotron{
+  margin: 0px;
+  background-image: url("../images/pexels-photo.jpg");
+  background-size: cover;
+  height: 700px;
+}
+.jumbotron h1{
+  color: white;
+  padding-left: 200px;
+  display: inline-block;
+}
+
+.jumbotron h3{
+  color: orange;
+  padding-left: 30px;
+  display: inline-block;
+
+}
+
+.navbar{
+opacity: 0.2;
+padding: 0px;
+margin: 0px;
+}
+.navbar > a{
+  color: white;
+  opacity: 1;
+}
+
+#DDnav{
+  float: right;
+  margin-right: 100px;
+}
+#DDnav .dropdown-menu{
+  opacity: 0.2;
+}
+#HomeNav {
+  color: white;
+  font-size: 20px;
+  padding-left: 100px;
+  text-decoration: none;
+  display: inline-block;
+}
+#HomeNav:hover{
+  text-decoration: none;
+}
+#HomeNav:active{
+  text-decoration: none;
+}
+
+.circle {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 900px;
+	border: 15px solid white;
+	border-radius: 50%;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+
+	-webkit-box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
+	box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
+	width: 180px;
+	height: 180px;
+	z-index: 86;
+
+	-webkit-transition: background-color .5s ease-in-out;
+	-moz-transition: background-color .5s ease-in-out;
+	-o-transition: background-color .5s ease-in-out;
+	-ms-transition: background-color .5s ease-in-out;
+	transition: background-color .5s ease-in-out;
+}
+
+.circle.filled {
+	background-color: #666666;
+}
