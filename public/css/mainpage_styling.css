@@ -1,5 +1,22 @@
+#app{
+  background-color: white;
+
+}
+
+.lexikon{
+border-top-width: thin;
+border-top-style: solid;
+border-top-color: blue;
+
+}
 
 
+.body{
+  background-color: white;
+}
+.container-fluid{
+  background-color: white;
+}
 .jumbotron{
   margin: 0px;
   background-image: url("../images/pexels-photo.jpg");

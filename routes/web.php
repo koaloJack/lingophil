@@ -18,3 +18,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/lexikon', 'HomeController@lexikon')->name('lexikon');
+Route::get('/alt', 'HomeController@alt')->name('alt');

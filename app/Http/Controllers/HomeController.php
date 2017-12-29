@@ -25,4 +25,15 @@ class HomeController extends Controller
     {
         return view('mainpage.home');
     }
+
+    public function lexikon()
+    {
+        return view('lexikon.landingpage');
+    }
+
+    public function alt()
+    {
+        return view('lexikon.alt');
+    }
+
 }
