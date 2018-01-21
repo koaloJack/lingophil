@@ -31,9 +31,22 @@
 
 <div class="jumbotron">
   @include('_parts.navigation')
-<h1> I am the main content </h1>
-<a href="#" class="btn-expand-collapse"><span class="glyphicon glyphicon-menu-left"></span></a>
-<a href="#" class="btn-expand-rightNav"><span class="glyphicon glyphicon-menu-left"></span></a>
+<h1> Grammatik spielend lernen</h1>
+
+<div id="leftArrow">
+  <a href="#" class="btn-expand-collapse"><p> Start Learning </p><span class="glyphicon glyphicon-menu-right"></span> </a>
+
+</div>
+
+
+<div id="rightArrow">
+  <a href="#" class="btn-expand-rightNav"><p> More Stuff we do</p><span class="glyphicon glyphicon-menu-left"></span></a>
+
+</div>
+
+
+
+
 
 </div>
 

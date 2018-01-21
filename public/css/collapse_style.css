@@ -1,3 +1,11 @@
+.glyphicon{
+  height: 30px;
+
+}
+.glyphicon-menu-right{
+  height: 30px;
+
+}
 .navbar-global {
   background-color: indigo;
 }
@@ -99,7 +107,7 @@
 }
 
 .navbar-primary.collapsed .glyphicon {
-  font-size: 22px;
+  font-size: 42px;
 }
 
 
@@ -112,26 +120,38 @@
 }
 
 .btn-expand-collapse {
-    position: absolute;
     display: block;
+
     left: 0px;
     bottom:0;
-    width: 100%;
     padding: 8px 0;
-    border-top:solid 1px #666;
     color: grey;
-    font-size: 20px;
+    font-size: 50px;
     text-align: center;
 }
 
-.btn-expand-collapse:hover,
-.btn-expand-collapse:focus {
-    background-color: #222;
-    color: white;
+.btn-expand-rightNav {
+    display: block;
+
+    left: 0px;
+    bottom:0;
+    padding: 8px 0;
+    color: grey;
+    font-size: 50px;
+    text-align: center;
 }
 
-.btn-expand-collapse:active {
-    background-color: #111;
+.btn-expand-collapse:hover, .btn-expand-rightNav:hover,
+.btn-expand-collapse:focus,.btn-expand-rightNav:focus {
+    background-color: none;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-expand-collapse:active,.btn-expand-rightNav:active {
+    background-color: none;
+    color: white;
+
 }
 
 .navbar-primary-menu,

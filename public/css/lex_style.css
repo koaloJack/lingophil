@@ -1,5 +1,32 @@
+.navbar{
+  border-bottom-color: #15A2FF;
+  margin: 0px;
+}
+
+.explainbox{
+  padding: 10px;
+  color: #15A2FF;
+  border-style: dashed;
+  border-color: #15A2FF;
+
+}
+.bold{
+  font-weight: bold;
+}
 .vertical-menu {
     width: 200px; /* Set a width if you like */
+    height: 500px;
+}
+
+.navileiste{
+  border-right-width: thin;
+  border-right-style: dashed;
+  border-right-color: #15A2FF;
+}
+
+.learncontent{
+  margin-top: 30px;
+  margin-left: 30px;
 }
 
 .vertical-menu a {
@@ -22,5 +49,5 @@
     font-weight: bold;
 }
 .lexikon{
-  padding-top: 20px;
+  padding-top: 0px;
 }
